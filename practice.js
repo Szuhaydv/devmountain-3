@@ -73,7 +73,7 @@ function replaceFirstAndLast(inputArray) {
 
 function addTen(inputArray) {
   let newArr = [];
-  for (let number in inputArray) {
+  for (let number of inputArray) {
     number += 10
     newArr.push(number)
   }
